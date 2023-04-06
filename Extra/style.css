@@ -1,0 +1,25 @@
+#home:hover{
+    color: red;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.cont{
+    background-color: rgb(72, 57, 85);
+    width: 100%;
+    height: 100vh;
+}
+.merge{
+    box-shadow: inset -5px -5px 10px rgb(155, 250, 12), inset 5px 5px 10px rgb(210, 252, 173);
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+    color: black;
+}
+.merge:hover{
+    background-color: white;
+    box-shadow: none;
+    border: 2px solid green;
+}
